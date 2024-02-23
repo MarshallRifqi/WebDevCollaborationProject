@@ -1,27 +1,29 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: aqua;
 }
 
 header {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
 }
 
 main {
-    padding: 20px;
+  padding: 20px;
+  min-height: 65vh;
 }
 
-section {
-    margin-bottom: 20px;
-}
+/* section {
+  margin-bottom: 20px;
+} */
 
 footer {
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
 }
