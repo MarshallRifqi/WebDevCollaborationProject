@@ -12,9 +12,16 @@ header {
   text-align: center;
 }
 
+/* memberikan style img */
+img{
+  width: 100px;
+}
+
 main {
   padding: 20px;
-  min-height: 65vh;
+  /* mengubah min height yang sebelumnya 65vh menjadi 100vh */
+  min-height: 100vh;
+
 }
 
 /* section {
