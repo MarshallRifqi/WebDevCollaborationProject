@@ -4,10 +4,12 @@ body {
   font: 16px/28px arial, sans-serif;
   background-color: #eaeaea;
   color: #333;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-  width: 800px;
+  width: 100%;
   margin: auto;
   background-color: white;
   min-height: 100vh;
@@ -15,11 +17,14 @@ body {
 
 .header {
   padding: 20px;
+  background-color: black;
+
 }
 
 .header .judul {
   font-size: 40px;
   font-weight: bold;
+  color: white;
 }
 
 /* Header */
@@ -28,21 +33,21 @@ body {
   border-radius: 5px;
   text-decoration: none;
   transition: 0.7s;
-  color: black;
+  color: white;
 }
 
 .list-header a:hover {
-  background-color: rgb(0, 0, 0);
-  color: #fff;
+  background-color: white;
+  color: black;
 }
 
 /* FOOTER */
 footer {
   background-color: #151515;
-  position: absolute;
+  /* position: absolute; */
   width: 100%;
-  bottom: 0;
-  left: 0;
+  /* bottom: 0;
+  left: 0; */
   box-sizing: border-box;
   color: white;
 }
@@ -129,3 +134,73 @@ div.copyright {
   margin-left: 100px;
 }
 /* END FOOTER */
+
+/* styling main article */
+.main-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  flex-direction: column;
+  /* width: 100%; */
+  /* width: 800px;
+  margin: 0 auto; */
+}
+
+
+.film-desc{
+  text-align: justify;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.movie-wrapper h2{
+  color: white;
+  text-align: center;
+  border-bottom: 5px solid black;
+}
+.moviename{
+  margin: 0;
+  padding: 3px 75px;
+  background-color: #1b1b1b;
+  box-sizing: border-box;
+}
+
+
+.movie-wrapper{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+}
+span{
+  font-weight: bold;
+}
+
+.article-name{
+  font-size: 2em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+/* @media screen and (max-width: 1074px){
+  .moviename{
+      box-sizing: border-box;
+      padding: 3px 20px;
+  }
+
+} */
+@media screen and (max-width: 980px){
+  .movie-wrapper{
+      width: 80%;
+      padding: 10px;
+
+  }
+
+}
+
+/* end of styling main article */
