@@ -91,12 +91,6 @@ span{
   font-weight: bold;
 }
 
-.article-name{
-  font-size: 2em;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin-bottom: 20px;
-  text-align: center;
-}
 
 
 /* @media screen and (max-width: 1074px){
@@ -209,3 +203,23 @@ div.copyright {
   margin-left: 100px;
 }
 /* END FOOTER */
+
+/* styling for article name */
+#img-banner{
+  width: 80%;
+  height: auto;
+}
+
+.article-name{
+  font-size: 2em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.article-name > h2{
+  margin-bottom: 90px;
+  margin-top: 100px;
+}
+
+/* end of article header styling */
