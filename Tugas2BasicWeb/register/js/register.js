@@ -17,3 +17,20 @@
 			}, false)
 		})
 })()
+
+function submitForm() {
+	alert("Register success!");
+  }
+
+
+  function alert(message) {
+	var alertContainer = document.getElementById('customAlert');
+  
+	alertContainer.innerHTML = message;
+  
+	alertContainer.style.display = 'block';
+  
+	setTimeout(function() {
+	  alertContainer.style.display = 'none';
+	}, 5000);
+  }
